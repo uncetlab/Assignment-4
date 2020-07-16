@@ -13,7 +13,7 @@ For this assignment:
 
 ## Start
 ```
-git clone git@github.com:uncetlab/assignment-4.git
+git clone git@github.com:uncetlab/Assignment-4.git
 git checkout -b <branch>
 ```
 
