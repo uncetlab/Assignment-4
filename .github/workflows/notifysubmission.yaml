@@ -1,0 +1,27 @@
+name: Notify on Submission
+
+on:
+  push:
+    tags: 
+    - "**/submission"
+
+
+jobs:
+  notify:
+    name: notify
+    runs-on: ubuntu-latest
+    env:
+        SLACK_WEBHOOK: ${{ secrets.UNREAL_LEARNING_INSTRUCTORS_WEBHOOK }}
+    steps:
+    - name : GITHUB CONTEXT
+      env:
+        GITHUB_CONTEXT: ${{ toJson(github) }}
+      run: echo "$GITHUB_CONTEXT"
+    - name: Post Message
+      uses: bryan-nice/slack-notification@master
+      env:
+        SLACK_TITLE: 'Submission'
+        SLACK_MESSAGE: '${{github.actor}} submitted for ${{github.event.repository.name}}'
+
+
+            
