@@ -11,8 +11,14 @@ For this assignment:
   6. Create materials with the provided textures and apply them to the 3 different MatPreviewMesh static meshes. (Make you apply them to the correct material slot)
   7. Decorate the rest of the floor with whatever assets you would like from the content packs. Add materials from the starter content pack to all assets you add to the level.
 
+## Start
+```
 git clone git@github.com:uncetlab/unreal-assignment-4.git
 git checkout -b <branch>
-Submission
+```
+
+## Submission
+```
 git tag <onyen>/submission
 git push origin <branch> --tags
+```
