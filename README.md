@@ -6,9 +6,9 @@ For this assignment:
   1. Add the starter content pack and one of the template packs. (3rd person character, etc.)
   2. Create a new blank level in the content browser.
   3. Add a directional light and atmospheric fog to the scene.
-  4. Add a floor and 3 MatPreviewMesh.
+  4. Add a floor and three MatPreviewMesh static meshes.
   5. Add a 3rd person character pawn so that you can test the level.
-  6. Create materials with the provided textures and apply them to the 3 different MatPreviewMesh static meshes. (Make you apply them to the correct material slot)
+  6. Create materials with the textures provided with the blank project and apply them to the 3 different MatPreviewMesh static meshes. (Make sure you apply them to the correct material slot)
   7. Decorate the rest of the floor with whatever assets you would like from the content packs. Add materials from the starter content pack to all assets you add to the level.
 
 ## Start
